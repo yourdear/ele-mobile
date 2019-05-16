@@ -1,4 +1,7 @@
-# fugle_mobile
+
+
+# ele-mobile
+仿饿了么项目
 
 ## Project setup
 ```
@@ -27,3 +30,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
