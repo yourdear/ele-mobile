@@ -41,11 +41,12 @@
         },
         methods: {
             _getSeller() {
+                this.showHeader = false
                 getSeller().then(
                     res => {
                         this.seller = res
-                        this.showHeader = false
                         this.showHeader = Object.keys(this.seller).length > 0
+                        console.log(this.showHeader)
                     }
                 )
             },
