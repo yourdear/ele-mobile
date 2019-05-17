@@ -83,7 +83,6 @@
             this.classMap = ['decrease','discount','special','invoice','guarantee']
         },
         mounted() {
-            console.log(this.seller.score)
         },
         methods: {
             showDetail(){
